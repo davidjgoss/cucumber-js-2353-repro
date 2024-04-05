@@ -26,6 +26,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      - run: node -v
+      - run: npm -v
       - run: npm i -g cucumber
       - run: npm ci
+      - run: npx cucumber-js
       - run: npm test
