@@ -1,5 +1,6 @@
 {
   "default": {
-    "require": ["features/support/steps.js"]
+    "require": ["features/support/steps.js"],
+    "import": ["features/support/steps.js"]
   }
 }
