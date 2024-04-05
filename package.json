@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cross-env DEBUG=cucumber cucumber-js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^10.3.2"
+    "@cucumber/cucumber": "^10.3.2",
+    "cross-env": "^7.0.3"
   }
 }
